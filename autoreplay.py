@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7812457687:AAGYO2dx2TNTrEfcljOfxeZUVnBYsnI4lME")
 
 async def auto_reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message.chat.type == 'private':
